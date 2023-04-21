@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background: #515b63;
+  background-image: url(Screenshot\ 2023-04-19\ at\ 7.06.33\ PM.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +15,8 @@ body {
 
 .calculator {
   width: 300px;
-  height: 500px;
-  box-shadow: 4px 4px 30px rgba(181, 8, 8, 0.3);
+  height: 517px;
+  box-shadow: 4px 4px 30px rgba(129, 8, 8, 0.3);
   border-radius: 12px;
   background: rgb(7, 6, 6);
   overflow: hidden;
@@ -39,6 +39,7 @@ form input {
  flex-wrap: wrap;
  justify-content: space-between;
  padding: 20px;
+
 }
 
 button{
@@ -49,18 +50,19 @@ button{
   height: 60px;
   font-size: 22px;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 12px;
+
   cursor: pointer;
 }
 .btn-yellow{
   background: rgb(62, 245, 160);
   color: #c23232;
-  font-size: 30px;
-}
-.btn-grey{
-background: rgb(13, 19, 106);
-  color: #f3ecec;
   font-size: 25px;
+}
+
+.btn-grey{
+background: rgb(101, 106, 184);
+
 }
 
 .btn-equal{
@@ -71,4 +73,11 @@ background: rgb(13, 19, 106);
 .btn-clear{
   background: #e90606;
   color: rgb(254, 249, 249);
+  font-size: medium;
+}
+
+.btn-zero{
+  background: rgb(101, 106, 184);;
+  border-radius: 12px;
+
 }
